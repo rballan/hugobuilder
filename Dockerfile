@@ -4,10 +4,6 @@ FROM debian:buster
 ENV HUGO_VERSION 0.69.2
 ENV HUGO_BINARY hugo_${HUGO_VERSION}_Linux-64bit.deb
 
-# Provisioning env var with urls to download
-ENV HUGO_WEBSITE_REPO https://gitlab.com/rballan/rballan.fr.git
-ENV HUGO_THEME_REPO_URL https://github.com/LordMathis/hugo-theme-nix.git
-
 ADD https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINARY} /tmp/hugo.deb
 
 COPY entrypoint.sh /opt/entrypoint.sh
