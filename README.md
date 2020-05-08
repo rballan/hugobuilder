@@ -2,8 +2,9 @@
 
 With this Docker image, you can build a static Hugo website **easily**. 
 
-This docker image is pre-configured for build my website, but you can simply override 2 environment variables to build your own Hugo static site ! 
-This image is based on Debian Buster and contain Hugo and Git CLI. She is designed for build an Hugo site from his git URL. 
+For build a static Hugo website, this docker image need just 2 variables to work ! 
+
+This image is based on Debian Buster and contain Hugo and Git CLI. She is designed for build an Hugo static site from defined git URL. 
  
 ## How to use this Docker image 
 
