@@ -1,5 +1,8 @@
 # Hugo site builder Docker image
 
+![Docker Pulls]https://img.shields.io/docker/pulls/rballan/hugobuilder?style=for-the-badge
+![Docker image stats]https://img.shields.io/docker/image-size/rballan/hugobuilder/latest?style=for-the-badge
+
 With this Docker image, you can build a static Hugo website **easily**. 
 
 For build a static Hugo website, this docker image need just 2 variables to work ! 
