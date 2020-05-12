@@ -20,9 +20,9 @@ docker run --rm  -e HOST_UID=$(id -u) -e HOST_GID=$(id -g) \
 ```
 
 Where : 
-*  **-e HOST_UID=$(id -u) -e HOST_GID=$(id -g)** : setting the same uid & gid on generated data (if non-specified they will be root:root)
+*  **-e HOST_UID=$(id -u) -e HOST_GID=$(id -g)** : setting the same uid & gid on generated data than the hosts user (if non-specified they will be root:root)
 * **-e HUGO_WEBSITE_REPO=<git_repo_url>** : specify the URL of your Hugo repository 
-* **-e HUGO_THEME_REPO_URL=<git_repo_url>** : specify the URL of the the of your choice (you must be configure `theme = "theme"` in your config.toml file)
+* **-e HUGO_THEME_REPO_URL=<git_repo_url>** : specify the URL of the theme of your choice (you must be configure `theme = "theme"` in your config.toml file)
 * **-v <local-directory-for-generated-files>:/output** : specify a local directory where the sources will be generated 
 
 
