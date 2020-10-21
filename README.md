@@ -16,7 +16,7 @@ docker run --rm  -e HOST_UID=$(id -u) -e HOST_GID=$(id -g) \
                  -e HUGO_WEBSITE_REPO=<git_repo_url> \
                  -e HUGO_THEME_REPO_URL=<git_repo_url> \
                  -v <local-directory-for-generated-files>:/output \
-                 rballan/hugobuilder:0.69.2
+                 rballan/hugobuilder:0.76.5
 ```
 
 Where : 
